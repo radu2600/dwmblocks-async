@@ -19,11 +19,11 @@
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
     X("", "/opt/dwmblocks/cputemp", 1, 0) \
-    X("", "/opt/dwmblocks/cpu", 1, 0) \
-    X("", "/opt/dwmblocks/updates", 60, 1) \
-    X("", "/opt/dwmblocks/memory", 2, 2) \
-    X("", "/opt/dwmblocks/uptime", 60, 3) \
     X("", "/opt/dwmblocks/volume", 0, 4) \
+    X("", "/opt/dwmblocks/disk /", 0, 6) \
+    X("", "/opt/dwmblocks/memory", 2, 2) \
+    X("", "/opt/dwmblocks/updates", 3600, 1) \
+    X("", "/opt/dwmblocks/uptime", 60, 3) \
     X("", "/opt/dwmblocks/clock", 1, 5)
 
 #endif  // CONFIG_H
